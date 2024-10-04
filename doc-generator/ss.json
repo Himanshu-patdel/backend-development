@@ -1,0 +1,415 @@
+{
+    "insert_timestamp": "2024-10-03T05:40:43+0000",
+    "last_update_timestamp": "2024-10-03T05:44:32+0000",
+    "_id": "66fe2e5b04ebb230459c699f",
+    "user_id": "test-user-uuid-12345",
+    "search_id": "0800f252-814a-11ef-8769-0242ac120002",
+    "claims": [
+        {
+            "text": "A portable computing device system comprising:\na compact form factor housing;\nan integrated keyboard and display within the compact form factor housing;\na battery power source integrated within the compact form factor housing; and\nvarious input/output ports integrated within the compact form factor housing for connectivity.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "A portable computing device system comprising:\na compact form factor housing;\nan integrated keyboard and display within the compact form factor housing;\na battery power source integrated within the compact form factor housing; and\nvarious input/output ports integrated within the compact form factor housing for connectivity."
+                }
+            ],
+            "index": 1,
+            "claim_type": "system",
+            "tag": "independent",
+            "generated_figures_data": {
+                "description_components": "Portable computing device system- 200\nCompact form factor housing- 201, 300\nIntegrated keyboard and display- 301\nBattery power source- 302\nVarious input/output ports- 303",
+                "latex_details": [
+                    {
+                        "images_urls": [
+                            "https://patentdraftingtest.s3.amazonaws.com/0800f252-814a-11ef-8769-0242ac120002/system/Fig2/267a598a-814a-11ef-b2e7-0a58a9feac02_Fig2_page_0.png"
+                        ],
+                        "fig_name": "Fig. 2",
+                        "latex": "\\documentclass{article}\n\\usepackage{tcolorbox}\n\\usepackage{caption}\n\\usepackage{tikz}\n\\usepackage[utf8]{inputenc}\n\n% Adjust caption settings\n\\captionsetup[figure]{labelformat=empty, labelsep=none}\n\n% Define a new command for the subcomponent box\n\\newcommand{\\coloredBoxWithArc}[2]{\n    \\begin{tikzpicture}\n        \\node (box) [inner sep=0pt] {\n            \\begin{tcolorbox}[colframe=black, colback=white, sharp corners, boxrule=0.5mm, left=2mm, right=2mm, top=1mm, bottom=1mm, boxsep=10pt, width=1\\textwidth]\n                {#1}\n            \\end{tcolorbox}\n        };\n        \\draw[ thick,-] (box.north east) arc(130:80:1.5cm) node[pos=1.3] {#2};\n    \\end{tikzpicture}\n}\n\n\\begin{document}\n\\pagenumbering{gobble}\n\n\\begin{figure}\n    \\centering\n    \\vspace*{-3cm}\n    \\begin{tikzpicture}\n    \\node (box) [inner sep=0pt] {\n        \\begin{tcolorbox}[colframe=black, colback=white, sharp corners, boxrule=0.5mm, width=.7\\textwidth]\n            Portable computing device system\n        \n            % Use the new command to create subcomponent boxes\n            \\coloredBoxWithArc{Compact form factor housing}{201}\n            \n        \\end{tcolorbox}\n    };\n    \\draw[ thick,-] (box.north east) arc(130:80:1.5cm) node[pos=1.3] {200};\n    \\end{tikzpicture}\n    \n\\caption*{\\hspace*{-2cm} \\textbf{Fig. 2}}\n    \n\\end{figure}\n\n\\end{document}",
+                        "steps": "",
+                        "components": "[200]. Portable computing device system\n    [201]. Compact form factor housing"
+                    },
+                    {
+                        "images_urls": [
+                            "https://patentdraftingtest.s3.amazonaws.com/0800f252-814a-11ef-8769-0242ac120002/system/Fig3/27095932-814a-11ef-b2e7-0a58a9feac02_Fig3_page_0.png"
+                        ],
+                        "fig_name": "Fig. 3",
+                        "latex": "\\documentclass{article}\n\\usepackage{tcolorbox}\n\\usepackage{caption}\n\\usepackage{tikz}\n\\usepackage[utf8]{inputenc}\n\n% Adjust caption settings\n\\captionsetup[figure]{labelformat=empty, labelsep=none}\n\n% Define a new command for the subcomponent box\n\\newcommand{\\coloredBoxWithArc}[2]{\n    \\begin{tikzpicture}\n        \\node (box) [inner sep=0pt] {\n            \\begin{tcolorbox}[colframe=black, colback=white, sharp corners, boxrule=0.5mm, left=2mm, right=2mm, top=1mm, bottom=1mm, boxsep=10pt, width=1\\textwidth]\n                {#1}\n            \\end{tcolorbox}\n        };\n        \\draw[ thick,-] (box.north east) arc(130:80:1.5cm) node[pos=1.3] {#2};\n    \\end{tikzpicture}\n}\n\n\\begin{document}\n\\pagenumbering{gobble}\n\n\\begin{figure}\n    \\centering\n    \\vspace*{-3cm}\n    \\begin{tikzpicture}\n    \\node (box) [inner sep=0pt] {\n        \\begin{tcolorbox}[colframe=black, colback=white, sharp corners, boxrule=0.5mm, width=.7\\textwidth]\n            Compact form factor housing\n        \n            % Use the new command to create subcomponent boxes\n            \\coloredBoxWithArc{Integrated keyboard and display}{301}\n            \\coloredBoxWithArc{Battery power source}{302}\n            \\coloredBoxWithArc{Various input/output ports}{303}\n            \n        \\end{tcolorbox}\n    };\n    \\draw[ thick,-] (box.north east) arc(130:80:1.5cm) node[pos=1.3] {300};\n    \\end{tikzpicture}\n    \n\\caption*{\\hspace*{-2cm} \\textbf{Fig. 3}}\n    \n\\end{figure}\n\n\\end{document}",
+                        "steps": "",
+                        "components": "[300]. Compact form factor housing\n    [301]. Integrated keyboard and display\n    [302]. Battery power source\n    [303]. Various input/output ports"
+                    }
+                ],
+                "removed_figure": [],
+                "figure_start_number": 2
+            }
+        },
+        {
+            "text": "The portable computing device system of claim 1, wherein the integrated keyboard and display are configured to be detachable from the compact form factor housing.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, wherein the integrated keyboard and display are configured to be detachable from the compact form factor housing."
+                }
+            ],
+            "index": 2,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, further comprising a touchpad integrated within the compact form factor housing for cursor control.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, further comprising a touchpad integrated within the compact form factor housing for cursor control."
+                }
+            ],
+            "index": 3,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, wherein the battery power source is a rechargeable lithium-ion battery.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, wherein the battery power source is a rechargeable lithium-ion battery."
+                }
+            ],
+            "index": 4,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, wherein the various input/output ports include at least one USB port, an HDMI port, and an audio jack.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, wherein the various input/output ports include at least one USB port, an HDMI port, and an audio jack."
+                }
+            ],
+            "index": 5,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, further comprising a cooling fan integrated within the compact form factor housing for heat dissipation.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, further comprising a cooling fan integrated within the compact form factor housing for heat dissipation."
+                }
+            ],
+            "index": 6,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, further comprising a biometric sensor integrated within the compact form factor housing for user authentication.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, further comprising a biometric sensor integrated within the compact form factor housing for user authentication."
+                }
+            ],
+            "index": 7,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, wherein the integrated keyboard and display utilize a hinge mechanism for adjustable viewing angles.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, wherein the integrated keyboard and display utilize a hinge mechanism for adjustable viewing angles."
+                }
+            ],
+            "index": 8,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The portable computing device system of claim 1, further comprising a wireless communication module for Bluetooth and Wi-Fi connectivity.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The portable computing device system of claim 1, further comprising a wireless communication module for Bluetooth and Wi-Fi connectivity."
+                }
+            ],
+            "index": 9,
+            "claim_type": "system",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "A method for assembling a portable computing device with an integrated keyboard and display, comprising:\nproviding a compact form factor chassis for easy transportation;\nintegrating a battery power source for untethered use within the chassis;\nincorporating various input/output ports for connectivity within the chassis; and\nassembling the integrated keyboard and display within the compact form factor chassis to form the portable computing device.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "A method for assembling a portable computing device with an integrated keyboard and display, comprising:\nproviding a compact form factor chassis for easy transportation;\nintegrating a battery power source for untethered use within the chassis;\nincorporating various input/output ports for connectivity within the chassis; and\nassembling the integrated keyboard and display within the compact form factor chassis to form the portable computing device."
+                }
+            ],
+            "index": 10,
+            "claim_type": "method",
+            "tag": "independent",
+            "generated_figures_data": {
+                "description_components": "",
+                "latex_details": [
+                    {
+                        "images_urls": [
+                            "https://patentdraftingtest.s3.amazonaws.com/0800f252-814a-11ef-8769-0242ac120002/method/Fig1/1d9b641c-814a-11ef-b2e7-0a58a9feac02_Fig1_page_0.png"
+                        ],
+                        "fig_name": "Fig. 1",
+                        "latex": "\\documentclass{article}\n\\usepackage{tikz}\n\\usepackage{caption}\n\\usetikzlibrary{shapes,arrows,decorations.pathreplacing}\n\n\\begin{document}\n\n\\pagenumbering{gobble}\n\\tikzstyle{block} = [rectangle, draw, fill=white, text width=18em, text centered, rounded corners, minimum height=3.5em]\n\\tikzstyle{line} = [draw, -latex']\n\\tikzstyle{decision} = [diamond, draw, fill=white, text width=6em, text badly centered, node distance=3.3cm, inner sep=0pt]\n\n\\begin{figure}\n    \\centering\n    \\vspace*{-4cm}\n    \\begin{tikzpicture}[node distance = 2cm, auto]\n\n    % Node with text\n    \\node (step100) [block] at (0,0) {Providing a compact form factor chassis for easy transportation};\n    \\node (step101) [block, below of=step100] {Integrating a battery power source for untethered use within the chassis};\n    \\node (step102) [block, below of=step101] {Incorporating various input/output ports for connectivity within the chassis};\n    \\node (step103) [block, below of=step102] {Assembling integrated keyboard and display within the chassis to form portable computing device};\n\n    % Arrows and labels\n    \\path [line] (step100) -- (step101);\n    \\path [line] (step101) -- (step102);\n    \\path [line] (step102) -- (step103);\n    \n    % Arcs and labels\n    \\draw[-, postaction={decorate}] (step100.east) arc (150:125:2cm);\n    \\path (step100.east) ++(25:1.5cm) node[anchor=east] {100};\n    \n    \\draw[-, postaction={decorate}] (step101.east) arc (150:125:2cm);\n    \\path (step101.east) ++(25:1.5cm) node[anchor=east] {101};\n    \n    \\draw[-, postaction={decorate}] (step102.east) arc (150:125:2cm);\n    \\path (step102.east) ++(25:1.5cm) node[anchor=east] {102};\n    \n    \\draw[-, postaction={decorate}] (step103.east) arc (150:125:2cm);\n    \\path (step103.east) ++(25:1.5cm) node[anchor=east] {103};\n\n    \\end{tikzpicture}\n    \\caption*{\\textbf{Fig. 1}}\n    \\label{fig:arcexample}\n\\end{figure}\n\n\\end{document}",
+                        "steps": "100. [Process] Providing a compact form factor chassis for easy transportation. \n101. [Process] Integrating a battery power source for untethered use within the chassis. \n102. [Process] Incorporating various input/output ports for connectivity within the chassis. \n103. [Process] Assembling the integrated keyboard and display within the compact form factor chassis to form the portable computing device.",
+                        "components": ""
+                    }
+                ],
+                "removed_figure": [],
+                "figure_start_number": 1
+            }
+        },
+        {
+            "text": "The method of claim 10, wherein the compact form factor chassis comprises a thickness of less than 1 inch.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the compact form factor chassis comprises a thickness of less than 1 inch."
+                }
+            ],
+            "index": 11,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the battery power source comprises a rechargeable lithium-ion battery.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the battery power source comprises a rechargeable lithium-ion battery."
+                }
+            ],
+            "index": 12,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the various input/output ports for connectivity include at least one USB-C port, one HDMI port, and one headphone jack.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the various input/output ports for connectivity include at least one USB-C port, one HDMI port, and one headphone jack."
+                }
+            ],
+            "index": 13,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the integrated keyboard and display are backlit for improved visibility in low-light conditions.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the integrated keyboard and display are backlit for improved visibility in low-light conditions."
+                }
+            ],
+            "index": 14,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the integrated keyboard and display are sealed to be water and dust resistant.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the integrated keyboard and display are sealed to be water and dust resistant."
+                }
+            ],
+            "index": 15,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the integrated keyboard and display include a touch-sensitive interface for user interaction.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the integrated keyboard and display include a touch-sensitive interface for user interaction."
+                }
+            ],
+            "index": 16,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the integrated keyboard and display are configured to detach from the compact form factor chassis for use as standalone input and output devices.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the integrated keyboard and display are configured to detach from the compact form factor chassis for use as standalone input and output devices."
+                }
+            ],
+            "index": 17,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        },
+        {
+            "text": "The method of claim 10, wherein the integrated keyboard and display are characterized by a high-resolution display with a pixel density of at least 300 pixels per inch.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "The method of claim 10, wherein the integrated keyboard and display are characterized by a high-resolution display with a pixel density of at least 300 pixels per inch."
+                }
+            ],
+            "index": 18,
+            "claim_type": "method",
+            "tag": "dependent",
+            "generated_figures_data": null
+        }
+    ],
+    "list_of_figures": [
+        "FIG. 1 is a flowchart for assembling a portable computing device with an integrated keyboard and display in a compact form factor chassis, including a battery power source, input/output ports, and the integration of the keyboard and display.",
+        "FIG. 2 is a block diagram illustrating the compact form factor housing as the central element of the portable computing device system.",
+        "FIG. 3 is a block diagram illustrating the components of a portable computing device system, emphasizing the compact form factor housing as the central element."
+    ],
+    "description": {
+        "invention_desc": {
+            "text": "The Portable Computing Device with Integrated Keyboard and Display comprises several key components that work together seamlessly to provide a compact, versatile, and efficient computing solution. At the core of the system is the Portable Computing Device (200), which serves as the central processing unit and control hub for the entire device. Housed within a Compact Form Factor Housing (201, 300), the device is designed to be easily transportable while ensuring durability and protection for the internal components.\n\nThe Integrated Keyboard and Display (301) is a pivotal component that enhances the user experience by combining input and output functionalities into a single unit. The keyboard allows users to input data and commands efficiently, while the display provides a vibrant visual interface for interacting with the device's software and applications. This integration not only saves space but also streamlines the overall design of the device.\n\nPowering the Portable Computing Device is the Battery Power Source (302), which enables untethered use and enhances the device's portability. The battery source is designed to provide sufficient power for extended periods of operation, ensuring that users can work or engage with the device without being constrained by the need for a constant power supply.\n\nTo facilitate connectivity and expand the device's functionality, various Input/Output Ports (303) are integrated into the system. These ports allow users to connect external devices such as USB drives, external monitors, or peripherals like a mouse or printer. The inclusion of multiple ports ensures versatility and compatibility with a wide range of accessories, making the device suitable for various tasks and environments.\n\nOverall, the Portable Computing Device with Integrated Keyboard and Display offers a comprehensive solution for users who require a compact, portable computing system without compromising on performance or functionality. By integrating essential components into a cohesive and efficient design, the device provides a user-friendly experience for work, entertainment, or communication purposes. The seamless interaction between the components ensures a smooth and productive user experience, making the device a valuable tool for individuals on the go or in need of a versatile computing solution.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    
+                    "index": 1,
+                    "text": "The Portable Computing Device with Integrated Keyboard and Display comprises several key components that work together seamlessly to provide a compact, versatile, and efficient computing solution. At the core of the system is the Portable Computing Device (200), which serves as the central processing unit and control hub for the entire device. Housed within a Compact Form Factor Housing (201, 300), the device is designed to be easily transportable while ensuring durability and protection for the internal components.\n\nThe Integrated Keyboard and Display (301) is a pivotal component that enhances the user experience by combining input and output functionalities into a single unit. The keyboard allows users to input data and commands efficiently, while the display provides a vibrant visual interface for interacting with the device's software and applications. This integration not only saves space but also streamlines the overall design of the device.\n\nPowering the Portable Computing Device is the Battery Power Source (302), which enables untethered use and enhances the device's portability. The battery source is designed to provide sufficient power for extended periods of operation, ensuring that users can work or engage with the device without being constrained by the need for a constant power supply.\n\nTo facilitate connectivity and expand the device's functionality, various Input/Output Ports (303) are integrated into the system. These ports allow users to connect external devices such as USB drives, external monitors, or peripherals like a mouse or printer. The inclusion of multiple ports ensures versatility and compatibility with a wide range of accessories, making the device suitable for various tasks and environments.\n\nOverall, the Portable Computing Device with Integrated Keyboard and Display offers a comprehensive solution for users who require a compact, portable computing system without compromising on performance or functionality. By integrating essential components into a cohesive and efficient design, the device provides a user-friendly experience for work, entertainment, or communication purposes. The seamless interaction between the components ensures a smooth and productive user experience, making the device a valuable tool for individuals on the go or in need of a versatile computing solution."
+                }
+            ]
+        },
+        "system_desc": {
+            "text_list": [
+                "Figure 2 illustrates a portable computing device system (200) with a compact form factor housing (201). The compact form factor housing (201) accommodates an integrated keyboard and display, providing a space-saving design for enhanced portability. The integrated keyboard and display within the compact form factor housing offer a seamless user interface, optimizing the user experience within a confined space. Additionally, a battery power source is integrated within the compact form factor housing, ensuring uninterrupted usage without the need for external power sources. This feature enhances the device's mobility and convenience, making it suitable for on-the-go usage. Furthermore, various input/output ports are integrated within the compact form factor housing, facilitating connectivity with external devices and peripherals. This enables seamless data transfer and interaction with external components, enhancing the device's versatility.",
+                "Figure 3 illustrates a portable computing device system with several key components. At the core of the system is the compact form factor housing (300), which accommodates all the essential elements. Integrated within this housing is the integrated keyboard and display (301), providing a seamless user interface for input and output. The compact form factor housing also houses the battery power source (302), ensuring the device's portability and independence from external power sources. Additionally, various input/output ports (303) are integrated within the housing, facilitating connectivity with external devices and networks.",
+                "The present invention relates to a portable computing device system (200) with an integrated keyboard and display (301) within a compact form factor housing (201, 300). The portable computing device system (200) includes a battery power source (302) integrated within the compact form factor housing and various input/output ports (303) for connectivity. The integrated keyboard and display (301) are designed to be detachable from the compact form factor housing, providing flexibility and convenience to the user.\n\nIn addition to the integrated keyboard and display, the portable computing device system (200) further comprises a touchpad integrated within the compact form factor housing for cursor control, enhancing the user experience and enabling efficient navigation. The battery power source (302) is a rechargeable lithium-ion battery, ensuring long-lasting and reliable power supply for the device.\n\nThe various input/output ports (303) integrated within the compact form factor housing include at least one USB port, an HDMI port, and an audio jack, enabling seamless connectivity with external devices and peripherals. Furthermore, the portable computing device system (200) includes a cooling fan integrated within the compact form factor housing for effective heat dissipation, ensuring optimal performance and preventing overheating during prolonged use.\n\nMoreover, the portable computing device system (200) incorporates a biometric sensor within the compact form factor housing for user authentication, enhancing security and providing a convenient and secure method for user access. The integrated keyboard and display (301) utilize a hinge mechanism for adjustable viewing angles, allowing the user to customize the display position for optimal comfort and visibility.\n\nAdditionally, the portable computing device system (200) includes a wireless communication module for Bluetooth and Wi-Fi connectivity, enabling seamless wireless communication and connectivity with other devices and networks. This feature enhances the versatility and usability of the portable computing device system (200) in various settings and applications."
+            ],
+            "current_v_index": 1,
+            "list_version": [
+                {
+                    "index": 1,
+                    "text_list": [
+                        "Figure 2 illustrates a portable computing device system (200) with a compact form factor housing (201). The compact form factor housing (201) accommodates an integrated keyboard and display, providing a space-saving design for enhanced portability. The integrated keyboard and display within the compact form factor housing offer a seamless user interface, optimizing the user experience within a confined space. Additionally, a battery power source is integrated within the compact form factor housing, ensuring uninterrupted usage without the need for external power sources. This feature enhances the device's mobility and convenience, making it suitable for on-the-go usage. Furthermore, various input/output ports are integrated within the compact form factor housing, facilitating connectivity with external devices and peripherals. This enables seamless data transfer and interaction with external components, enhancing the device's versatility.",
+                        "Figure 3 illustrates a portable computing device system with several key components. At the core of the system is the compact form factor housing (300), which accommodates all the essential elements. Integrated within this housing is the integrated keyboard and display (301), providing a seamless user interface for input and output. The compact form factor housing also houses the battery power source (302), ensuring the device's portability and independence from external power sources. Additionally, various input/output ports (303) are integrated within the housing, facilitating connectivity with external devices and networks.",
+                        "The present invention relates to a portable computing device system (200) with an integrated keyboard and display (301) within a compact form factor housing (201, 300). The portable computing device system (200) includes a battery power source (302) integrated within the compact form factor housing and various input/output ports (303) for connectivity. The integrated keyboard and display (301) are designed to be detachable from the compact form factor housing, providing flexibility and convenience to the user.\n\nIn addition to the integrated keyboard and display, the portable computing device system (200) further comprises a touchpad integrated within the compact form factor housing for cursor control, enhancing the user experience and enabling efficient navigation. The battery power source (302) is a rechargeable lithium-ion battery, ensuring long-lasting and reliable power supply for the device.\n\nThe various input/output ports (303) integrated within the compact form factor housing include at least one USB port, an HDMI port, and an audio jack, enabling seamless connectivity with external devices and peripherals. Furthermore, the portable computing device system (200) includes a cooling fan integrated within the compact form factor housing for effective heat dissipation, ensuring optimal performance and preventing overheating during prolonged use.\n\nMoreover, the portable computing device system (200) incorporates a biometric sensor within the compact form factor housing for user authentication, enhancing security and providing a convenient and secure method for user access. The integrated keyboard and display (301) utilize a hinge mechanism for adjustable viewing angles, allowing the user to customize the display position for optimal comfort and visibility.\n\nAdditionally, the portable computing device system (200) includes a wireless communication module for Bluetooth and Wi-Fi connectivity, enabling seamless wireless communication and connectivity with other devices and networks. This feature enhances the versatility and usability of the portable computing device system (200) in various settings and applications."
+                    ]
+                }
+            ]
+        },
+        "method_desc": {
+            "text": "Step 100 involves the process of providing a compact form factor chassis for easy transportation. The chassis is designed to be small and lightweight, allowing for convenient portability of the portable computing device. This step focuses on creating a housing that is both sturdy and compact, ensuring that the device can be easily carried from one place to another without being cumbersome or heavy. The compact form factor chassis is a crucial element in making the portable computing device user-friendly and suitable for on-the-go use.\n\nMoving on to step 101, the method includes integrating a battery power source within the chassis to enable untethered use. By incorporating a battery power source directly into the chassis, the portable computing device becomes independent of external power sources, enhancing its usability and convenience. This step ensures that users can operate the device without the need for constant access to a power outlet, making it ideal for use in various settings where power sources may be limited or unavailable.\n\nStep 102 involves the incorporation of various input/output ports within the chassis to facilitate connectivity. By integrating a range of input/output ports directly into the chassis, the portable computing device offers enhanced connectivity options for users. These ports allow for easy connection to external devices such as monitors, printers, or external storage drives, expanding the functionality and versatility of the device. The inclusion of multiple ports ensures that users can easily connect their devices without the need for additional adapters or accessories.\n\nLastly, step 103 focuses on assembling the integrated keyboard and display within the compact form factor chassis to create the portable computing device. This step involves carefully integrating the keyboard and display components into the chassis to ensure a seamless and functional design. By assembling these key components within the chassis, the device maintains a sleek and unified appearance while maximizing space efficiency. The integrated keyboard and display are essential elements that enable users to interact with the device and access its features effectively, making the portable computing device a complete and user-friendly solution for computing needs.",
+            "current_v_index": 1,
+            "version": [
+                {
+                    "index": 1,
+                    "text": "Step 100 involves the process of providing a compact form factor chassis for easy transportation. The chassis is designed to be small and lightweight, allowing for convenient portability of the portable computing device. This step focuses on creating a housing that is both sturdy and compact, ensuring that the device can be easily carried from one place to another without being cumbersome or heavy. The compact form factor chassis is a crucial element in making the portable computing device user-friendly and suitable for on-the-go use.\n\nMoving on to step 101, the method includes integrating a battery power source within the chassis to enable untethered use. By incorporating a battery power source directly into the chassis, the portable computing device becomes independent of external power sources, enhancing its usability and convenience. This step ensures that users can operate the device without the need for constant access to a power outlet, making it ideal for use in various settings where power sources may be limited or unavailable.\n\nStep 102 involves the incorporation of various input/output ports within the chassis to facilitate connectivity. By integrating a range of input/output ports directly into the chassis, the portable computing device offers enhanced connectivity options for users. These ports allow for easy connection to external devices such as monitors, printers, or external storage drives, expanding the functionality and versatility of the device. The inclusion of multiple ports ensures that users can easily connect their devices without the need for additional adapters or accessories.\n\nLastly, step 103 focuses on assembling the integrated keyboard and display within the compact form factor chassis to create the portable computing device. This step involves carefully integrating the keyboard and display components into the chassis to ensure a seamless and functional design. By assembling these key components within the chassis, the device maintains a sleek and unified appearance while maximizing space efficiency. The integrated keyboard and display are essential elements that enable users to interact with the device and access its features effectively, making the portable computing device a complete and user-friendly solution for computing needs."
+                }
+            ]
+        }
+    },
+    "background": {
+        "text": "I'm sorry, but it seems like the title and problem statement for the patent are missing. Could you please provide the title and problem statement so that I can generate the technical background content accordingly?",
+        "current_v_index": 1,
+        "version": [
+            {
+                "index": 1,
+                "text": "I'm sorry, but it seems like the title and problem statement for the patent are missing. Could you please provide the title and problem statement so that I can generate the technical background content accordingly?"
+            }
+        ]
+    },
+    "summary": {
+        "text": "The portable computing device with an integrated keyboard and display offers a compact form factor, making it easily transportable. Its battery-powered design allows for untethered use, enhancing its convenience and versatility. The integration of various input/output ports provides seamless connectivity, catering to diverse user needs. This innovative device combines functionality with portability, offering a practical solution for on-the-go computing requirements.",
+        "current_v_index": 1,
+        "version": [
+            {
+                "index": 1,
+                "text": "The portable computing device with an integrated keyboard and display offers a compact form factor, making it easily transportable. Its battery-powered design allows for untethered use, enhancing its convenience and versatility. The integration of various input/output ports provides seamless connectivity, catering to diverse user needs. This innovative device combines functionality with portability, offering a practical solution for on-the-go computing requirements."
+            }
+        ]
+    },
+    "abstract": {
+        "text": "A portable computing device with an integrated keyboard and display, featuring a compact form factor for easy transportation, battery-powered for untethered use, and the integration of various input/output ports for connectivity.",
+        "current_v_index": 1,
+        "version": [
+            {
+                "index": 1,
+                "text": "A portable computing device with an integrated keyboard and display, featuring a compact form factor for easy transportation, battery-powered for untethered use, and the integration of various input/output ports for connectivity."
+            }
+        ],
+        "about_invention": "As the invention is related to 'Machine, apparatus, system', so you can mention about its nature, use; construction, organization, elements and operation"
+    },
+    "technical_field": {
+        "text": "The present invention pertains to the field of portable electronic devices and specifically relates to a portable computing device with an integrated keyboard and display, designed for easy transportation and untethered use, featuring integrated input/output ports for connectivity.",
+        "current_v_index": 1,
+        "version": [
+            {
+                "index": 1,
+                "text": "The present invention pertains to the field of portable electronic devices and specifically relates to a portable computing device with an integrated keyboard and display, designed for easy transportation and untethered use, featuring integrated input/output ports for connectivity."
+            }
+        ]
+    },
+    "title": {
+        "text": "Portable Computing Device with Integrated Keyboard and Display",
+        "current_v_index": 1,
+        "version": [
+            {
+                "index": 1,
+                "text": "Portable Computing Device with Integrated Keyboard and Display"
+            },
+            {
+                "index": 2,
+                "text": "Transportable Device with Integrated Display and Keyboard"
+            },
+            {
+                "index": 3,
+                "text": "Battery-Operated Compact Computing Solution"
+            },
+            {
+                "index": 4,
+                "text": "Compact Battery-Powered Computing Device"
+            },
+            {
+                "index": 5,
+                "text": "All-in-One Portable Computer with Connectivity Options"
+            }
+        ]
+    },
+    "components": "",
+    "status": "Completed"
+}
